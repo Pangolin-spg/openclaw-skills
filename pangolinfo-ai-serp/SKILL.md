@@ -5,7 +5,8 @@ description: >
   Pangolinfo APIs, with optional page screenshots. Use when you need structured
   results (JSON) for pipelines/agents. Requires PANGOLIN_TOKEN or
   PANGOLIN_EMAIL + PANGOLIN_PASSWORD.
-homepage: https://www.pangolinfo.com
+homepage: https://www.pangolinfo.com/ai-serp-skill/
+license: MIT
 metadata:
   openclaw:
     emoji: "🔎"
@@ -29,7 +30,7 @@ If you previously used Amazon features from the combined skill, install the new 
 ## Prerequisites
 
 - **Python 3.6+** (standard library only)
-- A **Pangolinfo account**: https://www.pangolinfo.com
+- A **Pangolinfo account**: https://tool.pangolinfo.com/
 - Auth env vars (choose one):
   - `PANGOLIN_TOKEN` (recommended)
   - or `PANGOLIN_EMAIL` + `PANGOLIN_PASSWORD`
@@ -75,8 +76,10 @@ Key output fields:
 
 ## Links
 
-- Homepage: https://www.pangolinfo.com
-- Legacy skill page (will redirect): https://clawhub.ai/tammy-hash/pangolinfo-scrape
+- Product: https://www.pangolinfo.com/ai-serp-skill/
+- AI Overview SERP API: https://www.pangolinfo.com/ai-overview-serp-api/
+- AI Overview API documentation: https://docs.pangolinfo.com/en-api-reference/aiModeSerpApi/aiModeSerpAPI
+- Source: https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-ai-serp
 
 ## Deep-dive references
 

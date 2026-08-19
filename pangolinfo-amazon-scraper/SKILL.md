@@ -5,7 +5,8 @@ description: >
   categories, best sellers, etc.). Use when you need structured results (JSON)
   for pipelines/agents. Requires PANGOLIN_TOKEN or PANGOLIN_EMAIL +
   PANGOLIN_PASSWORD.
-homepage: https://www.pangolinfo.com
+homepage: https://www.pangolinfo.com/amazon-scraper-skill/
+license: MIT
 metadata:
   openclaw:
     emoji: "🛒"
@@ -23,7 +24,7 @@ Supports product detail pages, keyword search, category listings, seller pages, 
 ## Prerequisites
 
 - **Python 3.6+** (standard library only)
-- A **Pangolinfo account**: https://www.pangolinfo.com
+- A **Pangolinfo account**: https://tool.pangolinfo.com/
 - Auth env vars (choose one):
   - `PANGOLIN_TOKEN` (recommended)
   - or `PANGOLIN_EMAIL` + `PANGOLIN_PASSWORD`
@@ -73,7 +74,11 @@ python3 scripts/pangolinfo.py --q "wireless mouse" --parser amzKeyword
 
 ## Links
 
-- Homepage: https://www.pangolinfo.com
+- Product: https://www.pangolinfo.com/amazon-scraper-skill/
+- Amazon Scraper API: https://www.pangolinfo.com/amazon-scraper-api/
+- Amazon Scrape API documentation: https://docs.pangolinfo.com/en-api-reference/amazonApi/amazonScrapeAPI
+- Amazon Reviews API documentation: https://docs.pangolinfo.com/en-api-reference/amazonReviewAPI/amazonReviewAPI
+- Source: https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-amazon-scraper
 
 ## References
 

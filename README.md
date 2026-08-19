@@ -2,8 +2,9 @@
 
 <div align="center">
 
-**Programmatic scraping + structured JSON for agent workflows.**  
-[Website](https://www.pangolinfo.com/) • [Documentation](https://docs.pangolinfo.com/) • [Get API Key](https://tool.pangolinfo.com/)
+**Official, installable agent skills for Amazon data and Google AI search workflows.**
+
+[Pangolinfo](https://www.pangolinfo.com/) • [Developer Documentation](https://docs.pangolinfo.com/) • [Get API Key](https://tool.pangolinfo.com/)
 
 </div>
 
@@ -18,12 +19,16 @@ This repository contains two OpenClaw skills maintained by Pangolinfo:
    - Purpose: Google SERP + AI overviews, including multi-turn AI mode follow-ups
    - Output: structured JSON (optional screenshot URL)
    - Docs: [`pangolinfo-ai-serp/SKILL.md`](./pangolinfo-ai-serp/SKILL.md)
+   - Product page: [Pangolinfo AI SERP Skill](https://www.pangolinfo.com/ai-serp-skill/)
+   - Related API: [AI Overview SERP API](https://www.pangolinfo.com/ai-overview-serp-api/)
 
 2. **Pangolinfo Amazon Scraper**
    - Path: `./pangolinfo-amazon-scraper`
    - Purpose: Amazon product / keyword / category / ranking scraping via multiple parsers
    - Output: structured JSON
    - Docs: [`pangolinfo-amazon-scraper/SKILL.md`](./pangolinfo-amazon-scraper/SKILL.md)
+   - Product page: [Pangolinfo Amazon Scraper Skill](https://www.pangolinfo.com/amazon-scraper-skill/)
+   - Related API: [Amazon Scraper API](https://www.pangolinfo.com/amazon-scraper-api/)
 
 ---
 
@@ -86,3 +91,9 @@ Issues and PRs are welcome. Please include reproducible inputs and expected outp
 ## License
 
 MIT © Pangolinfo
+
+## Official product resources
+
+- [Amazon Data MCP](https://www.pangolinfo.com/amazon-data-mcp/)
+- [Amazon Niche Data API](https://www.pangolinfo.com/amazon-niche-data-api/)
+- [Amazon Alexa API](https://www.pangolinfo.com/amazon-alexa-api/)
