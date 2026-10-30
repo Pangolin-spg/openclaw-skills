@@ -21,6 +21,12 @@ metadata:
 Search Google programmatically via **Pangolinfo** APIs.
 Extract **Google AI Overviews**, run **AI Mode** searches with **multi-turn follow-ups**, and optionally capture **screenshots**.
 
+## Get started
+
+- Get your API key: sign up free at https://tool.pangolinfo.com/ (60 credits/month, no credit card required), then set `PANGOLIN_TOKEN` before running any command.
+- See details: https://www.pangolinfo.com/
+- Read the official docs: https://docs.pangolinfo.com/
+
 ## Migration note (Amazon)
 
 Amazon scraping is now a separate skill: **Pangolinfo Amazon Scraper**.
