@@ -21,6 +21,12 @@ metadata:
 Scrape Amazon programmatically via **Pangolinfo** APIs.
 Supports product detail pages, keyword search, category listings, seller pages, best sellers, and more.
 
+## Get started
+
+- Get your API key: sign up free at https://tool.pangolinfo.com/ (60 credits/month, no credit card required), then set `PANGOLIN_TOKEN` before running any command.
+- See details: https://www.pangolinfo.com/
+- Read the official docs: https://docs.pangolinfo.com/
+
 ## Prerequisites
 
 - **Python 3.6+** (standard library only)
